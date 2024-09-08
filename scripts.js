@@ -67,7 +67,7 @@ function formatPhoneNumber(event) {
     if (value.length > 2) {
         value = value.slice(0, 3) + ' ' + value.slice(3);
     }
-    if (value.length > 3) {
+    if (value.length > 8) {
         value = value.slice(0, 8) + ' ' + value.slice(8);
     }
     input.value = value;

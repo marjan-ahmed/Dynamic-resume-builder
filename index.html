@@ -19,10 +19,9 @@
                 <input type="email" id="email" name="email" required><br>
                 
                 <label for="phone">Phone:</label>
-                <input type="tel" 
-                pattern="(\+92)[0-9]{10}" 
+                <input type="tel"  
                 placeholder="92XXXXXXXXXX"
-                maxlength="13" 
+                maxlength="15" 
                 title="Enter a phone number in the format +92XXXXXXXXXX, where X is a digit" 
                 required id="phone" name="phone"><br>
                 
@@ -41,7 +40,7 @@
                         <input type="text" class="edu-degree" required><br>
 
                         <label for="edu-years">Years:</label>
-                        <input type="date" class="edu-years" required><br>
+                        <input type="number" class="edu-years" required><br>
                     </div>
                 </div>
                 <button type="button" id="add-education">Add More Education</button>
@@ -58,7 +57,7 @@
                         <input type="text" class="exp-role" required><br>
 
                         <label for="exp-years">Years:</label>
-                        <input type="date" class="exp-years" required><br>
+                        <input type="number" class="exp-years" required><br>
                     </div>
                 </div>
                 <button type="button" id="add-experience">Add More Experience</button>
